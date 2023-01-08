@@ -1,4 +1,5 @@
-for i in *cc ; 
+cp -v jni/*cpp .
+for i in *cpp ; 
 do 
 	FILE=$i   ;  
 	MODULE="`basename $PWD`"
